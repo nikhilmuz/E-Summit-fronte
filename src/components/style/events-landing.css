@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'Gotham-Extralight';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+  
+    src: local('gotham-extralight'), local('gotham'), url('./../../fonts/gotham-extralight.otf') format('opentype');
+  }
+a {
+    text-decoration: none
+}
+a:hover{
+    text-decoration: none;
+}
+.heading-landing{
+    text-align: center;
+    font-family: Gotham;
+    font-weight: 900;
+    font-size: 24px;
+    padding-top: 8vh;
+    padding-bottom: 5vh;
+}
+
+.event-cards-landing{
+    width: 100%;
+    height: 25.5vw;
+    background-color: #ffffff;
+    box-shadow: 0 0 12px 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 32px;
+    font-family: Gotham;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-align: left;
+    padding-top: 11.111%;
+    padding-left: 11.111%;
+    position: relative
+}
+.right-landing{
+    float: right
+}
+
+.explore-events-landing{
+    font-family: Gotham-Extralight;
+    font-size: 0.8em;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: left;
+    color: rgba(30, 30, 30, 0.6);
+    position: absolute;
+    bottom: 11.11%;
+    left:13%
+}
+
+.card-circles-landing{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 34.565%; 
+}
+
+@media screen and (max-width: 768px) {
+    .right-landing{
+        float: left;
+    }
+    .event-cards-landing{
+        height: 80vw;
+        float: left;
+        margin-left: 7.4%
+    }
+    .heading-landing {
+    text-align: center;
+    font-family: Gotham;
+    font-weight: 900;
+    font-size: 46px;
+    padding-top: 4vh;
+    padding-bottom: 0vh;
+}
+.main-event {
+    padding-top: 10% !important;
+    padding-left: 0% !important;
+}
+}
+.image-workshops{
+    position:absolute;
+    top: 38.8%;
+    max-height: 90px;
+    left: 13.04%;
+
+}
+
+.event-cards-landing {
+    margin-left: auto;
+    color: black;
+    text-decoration: none;
+}
+.event-cards-landing :hover{
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (orientation : portrait){
+    .image-workshops{
+        width:34%;
+    }
+    .explore-events-landing{
+        font-size: 25px;
+    }
+    .workshops-mainevent{
+        float:left !important;
+    }
+}
+
+@media screen and (orientation : landscape) and (max-width:850px){
+    .image-workshops{
+        width:20%;
+    }
+    .explore-events-landing{
+        font-size: 25px;
+    }
+    .image-workshops{
+        width: 20%;
+        top:45%;
+    }
+    
+}
+.image-workshops-mainevent{
+    width:30%;
+}
+.image-workshops-zonals{
+    width:41%;
+}
+.workshops-mainevent{
+    float:right;
+}

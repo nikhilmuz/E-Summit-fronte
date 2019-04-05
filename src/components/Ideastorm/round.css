@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+.bplan-round-container{
+    background-color: #2F80ED;
+    min-height:40vh; 
+}
+.bplan-round-first-column>ul{
+    list-style: none;
+}
+
+/* Tell the <li> to not display numbers, but keep track of what the numbers should be */
+.bplan-round-first-column li ol li {
+  counter-increment: list;
+  list-style-type: none;
+  position: relative;
+}
+/* Outout the numbers using the counter() function, but use a custom color, and position the numbers how we want */
+.bplan-round-first-column li ol li:before {
+  color: white;
+  content: counter(list) ".";
+  left:-32px;
+  position: absolute;
+  text-align: right;
+  width: 26px;
+}
+
+
+.bplan-round-second-column{
+    background-color:#FFC61C ;
+    min-height:78vh;
+}
+.bplan-round-image{
+    position:relative;
+}
+.bplan-round-image img{
+    position:absolute;
+    
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%,9%)
+}
+.round-head {
+    font-family:Gotham-Black,sans-serif;
+    font-weight: 400;
+}
+.round-head a {
+    font-family:Gotham-Black,sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+.bpan-round1{
+    font-family:Gotham-Black,sans-serif;
+    font-size:48px;
+    color:#FFC61C;
+    line-height:10px;
+    white-space: nowrap;
+}
+.bplan-entries1{
+    color:#FFFFFF;
+    font-size:15px;
+    font-family:Gotham-Extralight,sans-serif;
+    margin-top:25px;
+}
+.bplan-instructions{
+    font-size:14px;
+    color:#FFFFFF;
+    font-family:Gotham-Extralight,sans-serif;
+}
+.bplan-round-first-column ul ul li p{
+        font-size:14px;
+        font-family:Gotham-Extralight,sans-serif;
+        color:#ffffff;
+}
+.bplan-round-first-column ul ul{
+    list-style:none;
+    padding-left:10px;
+    margin-top:6vh;
+}
+.bplan-round-first-column ul ul li::before{
+    content: "•";
+     color:#ffffff;
+     padding-right:7px;
+     
+}
+.bplan-round-first-column ul ul li p{display:inline;}
+.bplan-round-first-column>ul{margin-top:12vh;}
+.bplan-round-middle-column ul{
+    list-style:none;
+}
+.bplan-round-middle-column ul li p{
+    color:#ffffff;
+    font-family: Gotham,sans-serif;
+}
+.bplan-round-middle-column ul ul li{
+   line-height:2vh;
+}
+.bplan-round-middle-column ul{
+margin-top:15.6vh;
+}
+.bplan-middle-content{
+    font-family:Gotham,sans-serif;
+    font-size:14px;
+}
+.bplan-entries1 a {
+    font-family:Gotham,sans-serif;
+    font-size:14px;
+    color:white;
+    text-decoration: underline;
+}
+.ideastorm-round-collapsible{
+    margin-top:10vh;
+}
+.idst-link,.bitly-idst{
+    text-decoration: none;
+    color:#ffffff;
+}
+
+@media only screen
+        
+        and (orientation: portrait) {
+            .bplan-round-container{
+                margin-bottom: 16.6vh !important;
+            }
+       
+         .bplan-entries{
+             white-space:normal;
+         }
+         .bplan-round-middle-column ul{
+                margin-top:5vh;
+                padding:0px;
+         }
+         .bplan-middle-content{
+             text-align:center;
+         }
+        }
+        .ideastorm-flex-collapsible{
+            margin-top:10vh;
+        }
+        .Collapsible{
+            margin-bottom:75px;
+        }
+        
+        .Collapsible__trigger{
+            position: absolute;
+            width: 100%;
+            z-index: 5;
+            background-color:#FFC61C;
+            text-align: center;
+            font-size: 48px;
+            margin-top: -72px;
+            font-family:Gotham,sans-serif;
+            color:#ffffff;
+            
+           
+        }
+        .Collapsible__trigger{
+            cursor:pointer;
+        }
+        
+        .Collapsible__contentInner{
+            margin-bottom: -96px;
+        }
+        /*new collapsible*/
+
+.boldtext-idst{
+    color:#000000;
+    font-size:18px;
+}
+.note-idsts{
+    list-style: none;
+}

@@ -1,0 +1,554 @@
+@font-face {
+  font-family: 'Gotham-Extralight';
+  font-style: normal;
+  font-weight: 200;
+  font-stretch: normal;
+
+  src: local('gotham-extralight'), local('gotham'), url('./../../fonts/gotham-extralight.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Gotham-Medium', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+
+  src: local('gotham-medium'), local('gotham'),  url('./../../fonts/gotham-medium.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Gotham';
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+
+  src: local('gotham-black'), local('gotham Bold'), url('./../../fonts/gotham-black.ttf') format('opentype');
+}
+
+
+
+/*event-styling*/
+
+.fluid-event-landing{
+height: auto;
+}
+
+.main-events{
+font-family: Gotham;
+  font-size: 24px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: #1e1e1e;
+  padding-top:4%;
+}
+.main-event{
+  padding-top: 12%;
+  padding-left: 20%;
+}
+.main-circle-image{
+    width: 15.3vw;
+    padding-left: 14%;
+    padding-top: 12%;
+}
+.main-event-heading{
+font-family: Gotham;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #1e1e1e;
+  margin-left: -24%;
+}
+.vl {
+    border-left: 2px solid #d8d8d8;
+    /*height: 447px;*/
+    height: 200%;
+    position: absolute;
+    margin-left: 119%;
+    margin-top: 92%;
+    z-index: -10;
+}
+.main-event-short-description{
+  font-family: Gotham-Extralight;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.main-event-long-description{
+font-family: Gotham-Extralight;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(30, 30, 30, 0.8);
+}
+.main-circleimage{
+background-color: #1e1e1e;
+}
+.cities-covering{
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(30, 30, 30, 0.8);
+  padding-top: 2%;
+  padding-bottom: 3%;
+
+}
+
+.no-padding{
+  padding: 0;
+  padding-top: 18%
+}
+
+.card-head{
+  font-family: Gotham-Extralight, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  margin-top: 39px;
+}
+
+.card-des{
+  font-family: Gotham-Extralight, sans-serif;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 12px;
+}
+
+.card-cities-one{
+  height: 20vh;
+    width: 50%;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  float: right;
+  
+}
+.card-cities-two{
+  height: 20vh;
+    width: 50%;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  
+}
+.card-cities-three{
+  height: 40vh;
+    width: 15vw;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  margin-left: 8%;
+  
+}
+
+
+.horizontal-line{
+   -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+ border-style: solid none;
+    border-width: 1px 0;    
+    max-width: 60vw;    
+    margin-top: 3%;
+    margin-left: 20%;
+    border-color: #d8d8d8;
+}
+
+
+
+
+
+
+
+
+
+
+
+.product-hunt{
+  font-family: Gotham;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.second-heading-product{
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1e1e1e;
+}
+
+.main-paragraph-product{
+  font-family: Gotham;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(30, 30, 30, 0.8);
+}
+
+
+
+
+
+
+
+.Startup-internship{
+font-family: Gotham;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.second-heading-startup{
+font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.main-paragraph-internship{
+font-family: Gotham;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(30, 30, 30, 0.8);
+}
+
+
+
+
+
+.competitions{
+  font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: center;
+  color: rgba(30, 30, 30, 0.8);
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.card-competition-one{
+
+  height: 40vh;
+    width: 15vw;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  margin-left: 55%;
+  
+
+ 
+  
+
+}
+
+.mainevent-li span { position: relative; left: 60px; }
+
+
+.card-competition-two{
+
+
+
+  height: 40vh;
+    width: 15vw;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  
+
+  
+
+}
+.card-competition-three{
+
+ 
+  height: 40vh;
+    width: 15vw;
+   background-color: #ffffff;
+  box-shadow: 0 0 12px 0 rgba(30, 30, 30, 0.2);
+  padding-top: 2%;
+  margin-left: 8%;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Startup-bplan{
+font-family: Gotham;
+  font-size: 48px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.second-heading-bplan{
+font-family: Gotham;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: #1e1e1e;
+}
+.main-paragraph-bplan{
+font-family: Gotham;
+  font-size: 14px;
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  text-align: left;
+  color: rgba(30, 30, 30, 0.8);
+}
+
+.main-events-grid{
+  border-left-width: 2px;
+  border-left-color: #d8d8d8
+}
+
+.view-more{
+    border-radius: 32px;
+    background-color: #4a90e2;
+    font-family: Gotham-Medium, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+    padding: 2.5% 10% 2.5% 10%;
+    border: none;
+    margin-top: 1vh
+}
+
+
+
+.problem-statement{
+  font-family: Gotham;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #f96f6f;
+  padding-left: 16%;
+}
+
+
+
+
+
+.btnLB-other{
+  border-radius: 32px;
+  background-color: #f96f6f;
+  font-family: Gotham-Medium, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #ffffff;
+  padding: 1% 4% 1% 4%;
+  border:none;
+  margin-top: 4%;
+    margin-left: 42%;
+}
+.smallboxregister{
+
+  height: 24vh;
+  background-color: #1e1e1e;
+}
+.fa-circle{
+  font-size: 18px;
+}
+@media screen and (max-width: 768px) {
+  .main-circle-image {
+    width: 135%;
+    height: 27%;
+    /* padding-top: 1%; */
+    /* padding-left: 14%; */
+    margin-left: 143%;
+    margin-top: -141vh;
+}
+.main-event-long-description {
+    font-family: Gotham-Extralight;
+    font-size: 14px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    max-width: -1vw;
+    letter-spacing: 0.4px;
+    text-align: left;
+    color: rgba(30, 30, 30, 0.8);
+}
+}
+
+@media screen and (orientation : portrait){
+  .main-event-heading{
+    font-size:23px;
+  }
+  .btn-toolbar{
+    justify-content:center;
+    padding-bottom:50px;
+  }
+  /* .landing-page-esummit .row{
+    display:unset !important;
+    margin-left:unset !important;
+    margin-right:unset !important;
+  } */
+  .removeBullets{
+    list-style: none;
+  }
+  .vl{
+    border-left:unset !important;
+  }
+  .card-cities-one{
+    float:unset !important;
+    width:100% !important;
+    margin-bottom:23px;
+    position: relative;
+  }
+  .card-cities-two{
+    width:100% !important;
+    margin-bottom:23px;
+    position: relative;
+  }
+  .card-cities-one .col-xs-offset-2 {
+    margin-left: 0 !important;
+  }
+
+  .card-cities-one .no-padding {
+    padding-top: unset; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+  }
+
+  .card-cities-two .col-xs-offset-2 {
+    margin-left: 0 !important;
+  }
+
+  .card-cities-two .no-padding {
+    padding-top: unset; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+  }
+  .main-circle-image{
+    width: 100%;
+    height: 27%;
+    padding-top:unset; 
+    padding-left:unset;
+    margin-left:unset;
+    margin-top:unset;
+    padding-bottom:10%;
+  }
+
+}
+
+/* .main-event-row{
+  display:unset;
+} */
+
+.landing-mainevent-name{
+  text-transform: uppercase;
+}
+.viewmorebuttonlandingpage-landing{
+  width: 150px;
+    height: 50px;
+    border-radius: 56px;
+    margin-top: 30px;
+    font-size: 18px;
+    font-family: Gotham,sans-serif;
+}
+@media screen and (orientation : landscape) and (min-width:780px){
+.main-event-row .col-md-5 {
+  max-width:40.677%;
+  
+}
+
+}
+@media screen and (orientation : landscape) and (max-width:780px){
+  .main-event-row .col-md-5 {
+    max-width:41.677%;
+    
+  }
+  
+  }

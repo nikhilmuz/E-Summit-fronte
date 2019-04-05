@@ -1,0 +1,194 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/gotham-medium.otf') format('opentype')
+}
+
+
+.jumbotron1{
+    height:100vh;
+    background-color: #1e1e1e;
+    position:relative;
+}
+#LDcontainer{
+    
+    height:100vh;
+    padding-left:10px;
+    width:65%;
+
+}
+.flex1{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    padding-top:30.5vh;
+ }
+.flex1 div{
+    width:50%;
+}
+
+@media only screen and (max-width: 900px) {
+    .flex1 div{
+        width:100%;
+        justify-content: center;
+        padding-bottom:10px;
+    
+    }
+   
+    }
+
+.btnLP1{
+    width: 245px !important;
+    height: 54px !important;
+    border-radius: 32px !important;
+    background-color: #f96f6f !important;
+    color:#ffffff;
+    border-color: #f96f6f !important
+}
+.circle1{
+    height:300px ;
+    width: 300px !important;
+    background-color:  #2ea2f8;
+    border-radius: 50%;
+    z-index:1;
+}
+.circle2{
+    height:300px ;
+    width: 300px !important;
+    border-radius: 50%;
+    border:solid 4px #f96f6f;
+    
+}
+.flex1 div:nth-child(1) p{
+    line-height:50px !important;
+}
+.flex1 div:nth-child(1) div{
+    
+
+}
+.flex1 div p:nth-child(1){
+    
+    
+    width: 264px;
+    height: 22px;
+    font-family: 'Gotham';
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff;
+}
+.flex1 div p:nth-child(2){
+    width: 293px;
+    font-family: Gotham;
+    font-size: 64px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #ffffff;
+}
+.flex1 div p:nth-child(3){
+    width: 293px;
+    
+    font-family: Gotham;
+    font-size: 64px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.3px;
+    text-align: left;
+    color: #ffffff;
+}
+.flex1 div:nth-child(2) div:nth-child(3) p{
+    position:absolute;
+    z-index:3;
+}
+
+.flex1 div:nth-child(2){
+    position:relative;
+
+}
+.flex1 div:nth-child(2) div:nth-child(1) {
+    position:absolute;
+    left:0;
+    top:0;
+}
+.flex1 div:nth-child(2) div:nth-child(2) {
+    position:absolute;
+    left:100px;
+    top:0;
+}
+
+.flex1 div:nth-child(2) div:nth-child(3) p:nth-child(1){
+    left:40px;
+    top:110px;
+    width: 100%;
+    height: 80px;
+    font-family: Gotham-ExtraLight  ;
+    font-size: 70px;
+    font-weight: 200;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.7px;
+    text-align: left;
+    color: #ffffff;
+}
+.flex1 div:nth-child(2) div:nth-child(3) p:nth-child(2){
+    left:45px;
+    top:198px;
+    width: 100%;
+    height: 24px;
+    font-family: Gotham-ExtraLight;
+    font-weight: 200;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #ffffff;
+    
+}
+.bottom-content{
+    position:absolute;
+    bottom:0;
+    text-align: center
+}
+.bottom-content p{
+    width: 128px;
+    height: 16px;
+    font-family: Gotham-Medium;
+    font-size: 16px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.flex1 div:nth-child(1){
+    padding-top:75px;
+}

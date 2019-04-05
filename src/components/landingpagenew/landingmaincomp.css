@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+
+.ln-buttons-ul-comp{
+    list-style:none;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+.ln-buttons-ul-comp li a{
+   font-size:16px;
+}
+.ln-buttons-ul-comp li{
+   
+   border-radius:56px;
+   position:relative;
+   width:235px;
+   height:40px;
+   margin-bottom:9px;
+ }
+ .ln-buttons-ul-comp li a{
+    z-index:5;
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%,-50%);
+    font-family: Gotham-Medium,sans-serif;
+    color:#FFC107 !important;
+    text-decoration: none;
+  }
+  .ln-buttons-ul-comp li:hover{
+    border:1px solid #FFC107;
+  }
+  .ln-buttons-ul-comp li:active{
+    background-color:#FFC107;
+   
+  }
+  .ln-buttons-ul-comp li:active a{
+    
+    color:#ffffff !important;
+  }
+  .ln-buttons-ul-comp li:visited{
+    background-color:#FFC107;
+    color:#ffffff;
+  }
+
+
+@media screen and (orientation : portrait){
+    .ln-buttons-ul{
+        padding-left:0px;
+    }
+    .ln-buttons-ul-comp{
+        
+        right: unset;
+    }
+}
+.ln-left-column-comp{
+    height: 309px;
+}

@@ -1,0 +1,128 @@
+    @font-face {
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./../../fonts/gotham-black.ttf') format('truetype')
+    }
+    @font-face {
+        font-family: 'Gotham-ExtraLight';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+    }
+    @font-face {
+        font-family: 'Gotham-Medium';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./../../fonts/gotham-medium.otf') format('opentype')
+    }
+    @font-face {
+        font-family: 'Gotham-Light';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+    }
+    @font-face {
+        font-family: 'Gotham-Black';
+        font-style: normal;
+        font-weight: 400;
+        src: url('./../../fonts/gotham-black.ttf') format('truetype')
+    }
+        .carousel-grid-casestudy {
+                background-color:#000000;
+                height:76.5vh;
+                margin-bottom: 11.6vh;
+        }
+
+        .carousel-left-content ul {
+                list-style:none;
+                padding:0px;
+                margin:0px;
+                width:fit-content;
+                margin-top:29.5vh;
+                margin-left:32%;
+                
+        }
+        .carousel-left-content ul li {
+        line-height:28px;
+        padding-bottom:15px;
+                
+        }
+        .bplan-text1{
+                font-family:Gotham-Black,sans-serif;
+                font-style: Regular;
+                font-size: 24px;
+                color: #FFC61C;
+        }
+        .bplan-text2-ideastorm{
+                font-family:Gotham-Black,sans-serif;
+                font-style: Regular;
+                font-size: 48px;
+                white-space: nowrap;
+                color: #ffffff;
+        }
+        .bplan-button{
+                background-color: #FFC61C;
+                width:100%;
+                height:56px;
+                border-radius:35px;
+                position: relative;
+        }
+        .bplan-button-content{
+                font-family: Gotham-Extralight,sans-serif;
+                font-size: 16px;
+                color:#FFFFFF;
+                position: absolute;
+                left: 50%;
+                margin-right:-50%;
+                top:50%;
+                transform: translate(-50%,-50%)
+        }
+        .carousel-right-content{
+                margin-top:23.5vh;
+        }
+        .carousel-right-content img{
+                margin-left: -16%;
+        }
+
+        @media only screen
+        
+        and (orientation: portrait) {
+        
+        .carousel-left-content > ul{
+                padding: 0;
+                margin: 0;
+                position: absolute;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%);
+                margin-top: 10vh;
+        }
+        .carousel-right-content img{
+                position: absolute;
+                left: 50%;
+                margin-right: -50%;
+                transform: translate(-50%);
+                width: 87%;
+                top: 30vh;
+                margin:0px;
+        }
+         .bplan-navbar ul{
+                 position:static;
+                 top:unset;
+                 transform: unset;
+         }
+         
+        }
+
+        .bplan-button-2{
+                margin-top: 10px;
+        }
+        @media only screen
+        
+        and (orientation:landscape) and (min-width:768px){
+                .carousel-grid-casestudy .col-md-6{
+                        max-width: 49.9%;
+                }
+        }
+       

@@ -1,0 +1,22 @@
+<svg width="30" height="30" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>check-mark-button</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-1098 93)">
+<g id="check-mark-button">
+<g id="Group">
+<g id="Group">
+<g id="Vector">
+<use xlink:href="#path0_fill" transform="translate(1098 -93)" fill="#91DC5A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#path1_fill" transform="translate(1106.15 -83.137)" fill="#91DC5A"/>
+</g>
+</g>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 15 0C 6.72902 0 0 6.72902 0 15C 0 23.271 6.72902 30 15 30C 23.271 30 30 23.271 30 15C 29.9995 6.72902 23.271 0 15 0ZM 15 27C 8.06201 27 3 21.9385 3 15C 3 8.06201 8.06201 3 15 3C 21.938 3 27 8.06147 27 14.9995C 27 21.9375 21.938 27 15 27Z"/>
+<path id="path1_fill" d="M 11.6267 0.353847L 4.62519 7.35593L 2.06317 4.7939C 1.59137 4.32157 0.826047 4.32157 0.354251 4.7939C -0.118084 5.2657 -0.118084 6.03102 0.354251 6.50282L 3.771 9.91957C 4.0069 10.1555 4.31659 10.274 4.62573 10.274C 4.93488 10.274 5.24402 10.156 5.47992 9.91957L 13.3362 2.0633C 13.808 1.59097 13.808 0.826182 13.3362 0.353847C 12.8639 -0.117949 12.0991 -0.117949 11.6267 0.353847Z"/>
+</defs>
+</svg>

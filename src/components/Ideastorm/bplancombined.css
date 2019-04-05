@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Gotham-Extralight';
+    font-style: normal;
+    font-weight: 200;
+    font-stretch: normal;
+  
+    src: local('gotham-extralight'), local('gotham'), url('./../../fonts/gotham-extralight.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Gotham-Medium', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-stretch: normal;
+  
+    src: local('gotham-medium'), local('gotham'),  url('./../../fonts/gotham-medium.otf') format('opentype');
+  }
+  @font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-stretch: normal;
+  
+    src: local('gotham-black'), local('gotham Bold'), url('./../../fonts/gotham-black.ttf') format('opentype');
+  }
+.carousel-grid{
+    margin-bottom: 11.6vh;
+}
+.bplan-content-column{
+    margin-bottom: 11.6vh;
+}
+.bplan-round-container{
+    margin-bottom: 11.6vh;
+}
+.bplan-bottom-grid-ideastorm{
+    
+}
+.bplan-bottom-contacts p:nth-child(1){
+    width: 100%;
+    font-family: Gotham-Extralight,sans-serif;
+    font-size:14px;
+    text-align: center;
+}
+.bplan-bottom-second-row p{
+    font-family:Gotham-Extralight,sans-serif;
+    font-size:14px;
+}
+@media only screen
+        
+        and (orientation: portrait) {
+            .bplan-bottom-contacts{
+                padding:0px 10%;
+               
+                
+            }
+        }

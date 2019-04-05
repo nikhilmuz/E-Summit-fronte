@@ -1,0 +1,384 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+.vertical-line-ln-comp{
+    border-left:1px solid #BDBDBD;
+    height: 2420px;
+    margin-left:8px;
+}
+.faq-list{
+    width:100%;
+}
+.ln-right-column ul {
+    width:100%;
+}
+.ln-right-column li{
+    line-height: 23px;
+}
+.competition-Webpreneurship{
+        font-family: Gotham-Black,sans-serif;
+        font-size: 48px;
+}
+.competition-Webpreneurship-bottomtext-comp{
+    font-family: Gotham-Medium,sans-serif;
+
+font-size: 24px;
+line-height: 23px;
+}
+.competition-Webpreneurship-why{
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+    margin-top:80px;
+}
+.competition-Allyouneed1 li p{
+    font-family:Gotham-Extralight,sans-serif;
+    font-size:14px;
+    line-height: 23px;
+    
+}
+.competition-highlights1{
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+    margin-top:20px;
+}
+.competition-highlights1 h1{
+    font-family: Gotham-Black,sans-serif;
+    font-size:  48px;
+    margin-top:20px;
+}
+.competition-workforacompany1{
+    font-family:Gotham-Extralight,sans-serif;
+    font-size:14px;
+    line-height: 9px;
+    list-style:none;
+}
+.competition-session li:nth-child(1){
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+}
+.competition-session li:nth-child(2){
+    font-family: Gotham-Extralight,sans-serif;
+    font-size:  14px;
+}
+.competition-sessiondetails li{
+    font-family: Gotham-Medium,sans-serif;
+    font-size: 24px;
+    color:#191919;
+    line-height: 28px;
+  
+}
+
+.verticalline-competition{
+    border-left: 1px solid #BDBDBD;
+    height: 231px;
+    margin-top: 12px;
+}
+.heading-ln{
+    list-style:none;
+}
+.competition-highlights1{
+    list-style: none;
+}
+.competition-session{
+    list-style:none;
+    margin-top:80px;
+}
+.competition-sessiondetails{
+    margin-left:-13.5%;
+   display:flex;
+   justify-content: space-between;
+   list-style: none;
+}
+.competition-sessiondetails-session{
+    list-style-type: disc;
+    margin-left:-11.7%;
+}
+.competition-sessiondetails-session li{
+    white-space: nowrap;
+}
+.competition-registernow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top:40px;
+    margin-bottom:80px;
+}
+.competition-registernow button{
+    width: 252px;
+    height: 56px;
+    border-radius: 56px;
+
+}
+.competition-sessionday{
+   list-style: none;
+}
+.competition-sessionday li{
+    color:#C4C4C4;
+    white-space: nowrap;
+    padding-bottom:48px;
+ }
+.bottomtext-session-ln{
+    font-family: Gotham-Extralight,sans-serif;
+    font-size:14px;
+    color:#191919;
+}
+@media screen and (orientation : portrait){
+    .comp-rules li:nth-child(1) h1{
+        text-align:center;
+    }
+    .ln-buttons-ul{
+        right:unset;
+        left:50%;
+        margin-right:-50%;
+        transform: translate(-50%)
+    }
+    .ln-left-column{
+        height:120px;
+    }
+    .competition-Webpreneurship{
+        font-size:24px;
+    }
+    .ln-right-column ul{
+        padding-left:0px;
+        list-style:none ;
+    }
+    .heading-ln{
+        text-align:center;
+    }
+    .competition-Allyouneed1{
+        text-align:center;
+        list-style: none;
+        
+    }
+    .competition-highlights1{
+        text-align:center;
+       
+    }
+    .competition-workforacompany1{
+        text-align: center;
+        list-style: none;
+    }
+    .competition-session1-ln{
+        text-align:center;
+        margin-top:20px;
+        list-style: none;
+       
+    }
+    .competition-sessiondetails{
+        margin-left:unset;
+    }
+    .competition-sessiondetails-session{
+        margin-left: unset;
+    }
+    .bottomtext-session-ln{
+        font-size: 10px;
+    }
+    .competition-ecommerce-ln-comp{
+        text-align: center;
+        margin-left:0 !important;
+    }
+    .notes-comp-container{
+        margin-left:0 !important;
+    }
+    .query-comp-ln p{
+        margin-left:0px;
+        text-align: center;
+    }
+    .query-comp-ln{
+        display: flex;
+    justify-content: center;
+    }
+    .competition-contact{
+        text-align:center;
+    }
+}
+.competition-contact{
+    text-align: center;
+    list-style: none;
+}
+.competition-ecommerce-ln-comp{
+    margin-left: -13.5%;
+    list-style: none;
+    font-size: 15px;
+    font-family: Gotham-Extralight,sans-serif;
+}
+.query-comp-ln p{
+    margin-left: 3%;
+    font-size:14px;
+    font-family:Gotham-Extralight,sans-serif;
+
+}
+query-comp-ln{
+    display:flex;
+    justify-content: center;
+}
+
+
+/*perks div*/
+.bplan-content-column{
+    padding-left:5.3%;
+    padding-right:5.3%;
+}
+.bplan-about-div{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:96%;
+    height:40vh;
+    padding-top:20vh;
+}
+.bplan-about-div img{
+    position:absolute;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%,0);
+    top:8.6vh;
+}
+.bplan-about-div p{
+   text-align: center;
+   margin-top:4.6vh;
+   padding-left:18px;
+   padding-right:18px;
+  
+}
+.appendedImages div:first-child div{
+    position:relative;
+   
+}
+.appendedImages div:last-child div{
+    position:relative;
+   
+}
+.bplan-content-column h1{
+    font-family:Gotham,sans-serif;
+    font-size:48px;
+}
+.bplan-content-para1-ideastorm{
+    font-size:15px;
+    margin-bottom:11vh;
+    margin-top: 3vh;
+}
+.appendedImages{
+    margin-top:3vh;
+}
+.notes-comp-container{
+    margin-left:-6%;
+}
+@media only screen
+        
+        and (orientation: portrait) {
+        
+            .bplan-content-column h1:nth-child(1){
+                width: 100%;
+                text-align: center;
+            }
+            
+         .bplan-content-para1{text-align: justify;
+            padding: 0px 10%;}
+         .bplan-about-div{
+             width:100%;
+             margin-bottom:10vh;
+         }
+         .bplan-round-second-column{
+             display:none;
+         }
+         
+        }
+/*perks div*/
+.query-comp-ln {
+    display: flex;
+    justify-content:center;
+}
+.comp-submission{
+    font-family: Gotham-Medium,sans-serif;
+    font-size:15px;
+    line-height: 18px;
+}
+.comp-rules1 li p{
+    font-family: Gotham-Extralight,sans-serif;
+}
+.comp-rules li p{
+    font-family: Gotham-Extralight,sans-serif;
+    
+}
+.comp-presentation-ln{
+    font-family: Gotham-Medium,sans-serif;
+    font-size:15px;
+
+}
+.comp-rules{
+    list-style: none;
+    margin-top:20px;
+}
+.comp-rules li{
+    font-size:24px;
+}
+.competition-Allyouneed1{
+    list-style: none;
+}
+.competition-session1-ln{
+  
+    margin-top:20px;
+    list-style: none;
+}
+.comp-elig{
+    font-size:24px;
+    font-family: Gotham,sans-serif;
+    margin-top:40px;
+}
+.comp-rules li:nth-child(1) h1{
+    font-size: 24px;
+    font-family: Gotham,sans-serif;
+}
+.comp-registernow{
+    background-color: #FFC107;
+}
+.comp-stage1{
+    font-size:24px;
+    font-family: Gotham,sans-serif;
+}
+.comp-stage2{
+    font-size:24px;
+    font-family: Gotham,sans-serif;
+}
+.comp-rules-1{
+    font-size:14px;
+    font-family: Gotham-Extralight,sans-serif;
+}
+.comp-rules-brief{
+    font-size: 14px;
+    font-family: Gotham-Extralight,sans-serif;
+}
+.secondround-ln-comp{
+    font-size:15px;
+    font-family:Gotham-Extralight,sans-serif;
+}
+.beforerule-ln{
+    font-size:14px;
+    font-family:Gotham-Extralight,sans-serif;
+}

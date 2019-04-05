@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+.vertical-line{
+    border-left:1px solid #BDBDBD;
+    height:100px;
+    margin-left:8px;
+}
+.faq-list{
+    width:100%;
+}
+.ln-right-column ul {
+    width:100%;
+}
+.competition-Webpreneurship{
+        font-family: Gotham-Black,sans-serif;
+        font-size: 48px;
+}
+.competition-Webpreneurship-bottomtext{
+    font-family: Gotham-Extralight,sans-serif;
+
+font-size: 14px;
+line-height: 23px;
+}
+.competition-Webpreneurship-why{
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+}
+.competition-Allyouneed li p{
+    font-family:Gotham-Extralight,sans-serif;
+    font-size:14px;
+    line-height: 9px;
+}
+.competition-highlights{
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+}
+.competition-workforacompany{
+    font-family:Gotham-Extralight,sans-serif;
+    font-size:14px;
+    line-height: 9px;
+}
+.competition-session li:nth-child(1){
+    font-family: Gotham-Black,sans-serif;
+    font-size:  24px;
+}
+.competition-session li:nth-child(2){
+    font-family: Gotham-Extralight,sans-serif;
+    font-size:  14px;
+}
+.competition-sessiondetails li{
+    font-family: Gotham-Medium,sans-serif;
+    font-size: 24px;
+    color:#191919;
+    line-height: 28px;
+  
+}
+
+.verticalline-competition{
+    border-left: 1px solid #BDBDBD;
+    height: 231px;
+    margin-top: 12px;
+}
+.heading-ln{
+    list-style:none;
+}
+.competition-highlights{
+    list-style: none;
+}
+.competition-session{
+    list-style:none;
+}
+.competition-sessiondetails{
+    margin-left:-13.5%;
+   display:flex;
+   justify-content: space-between;
+   list-style: none;
+}
+.competition-sessiondetails-session{
+    list-style-type: disc;
+    margin-left:-11.7%;
+}
+.competition-sessiondetails-session li{
+    white-space: nowrap;
+}
+.competition-registernow{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.competition-registernow button{
+    width: 252px;
+    height: 56px;
+    border-radius: 56px;
+
+}
+.competition-sessionday{
+   list-style: none;
+}
+.competition-sessionday li{
+    color:#C4C4C4;
+    white-space: nowrap;
+    padding-bottom:48px;
+ }
+.bottomtext-session-ln{
+    font-family: Gotham-Extralight,sans-serif;
+    font-size:14px;
+    color:#191919;
+}
+@media screen and (orientation : portrait){
+    .ln-buttons-ul{
+        right:unset;
+        left:50%;
+        margin-right:-50%;
+        transform: translate(-50%)
+    }
+    .ln-left-column{
+        height:120px;
+    }
+    .competition-Webpreneurship{
+        font-size:24px;
+    }
+    .ln-right-column ul{
+        padding-left:0px;
+        list-style:none ;
+    }
+    .heading-ln{
+        text-align:center;
+    }
+    .competition-Allyouneed{
+        text-align:center;
+    }
+    .competition-highlights{
+        text-align:center;
+    }
+    .competition-workforacompany{
+        text-align: center;
+    }
+    .competition-session{
+        text-align:center;
+    }
+    .competition-sessiondetails{
+        margin-left:unset;
+    }
+    .competition-sessiondetails-session{
+        margin-left: unset;
+    }
+    .bottomtext-session-ln{
+        font-size: 10px;
+    }
+    .competition-ecommerce{
+        text-align: center;
+    }
+    .query-comp-ln{
+        display: flex;
+    justify-content: center;
+    }
+    .competition-contact{
+        text-align:center;
+    }
+}
+.competition-contact{
+    text-align: center;
+    list-style: none;
+}
+.competition-ecommerce{
+    margin-left: -13.5%;
+    list-style: none;
+}
+.query-comp-ln p{
+    margin-left: 3%;
+}

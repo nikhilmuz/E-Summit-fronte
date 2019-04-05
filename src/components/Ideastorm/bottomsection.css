@@ -1,0 +1,142 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+.bplan-bottom-column{
+    padding-left:2.4%;
+}
+.bplan-bottom-column>ul{
+    list-style:none;
+}
+.bplan-bottom-column ul ul{
+   list-style: none;
+}
+.bplan-bottom-column ul ul li::before{
+    content: ".";
+    color: #000000;
+    font-size: 18px;
+    padding-right: 7px;
+    margin-left: -10px;
+   
+    display: inline;
+    margin-top: -10px;
+ }
+ .bplan-bottom-column ul ul li p{
+   display: inline;
+   /*color:#000000;*/
+   /*opacity:0.87;*/
+   font-size: 15px;
+   font-family:Gotham-Medium,sans-serif;
+   line-height:20px;
+ }
+
+
+.bplan-bottom-horizontal-line{
+    border-bottom:2px solid #000000;
+    width:75.3%;
+}
+.bplan-bottom-div-contrive{
+    position:absolute;
+    height:327px;
+    width:80%;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width:71%;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%)
+
+}
+.bplan-bottom-div-contrive p{
+    position:absolute;
+    left:3%;
+    bottom:0;
+    font-size:40px;
+    font-family:Gotham-Extralight,sans-serif;
+    color:#000000;
+}
+.bplan-bottom-div-contrive img{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+.bplan-bottom-interest{
+    text-align:center;
+}
+
+.bplan-bottom-rules{
+    font-family: Gotham-Black,sans-serif;
+    color:#000000;
+    font-size:48px;
+}
+.bplan-bottom-registration{
+    font-family: Gotham-Black,sans-serif;
+   color: #000000;
+  font-size:48px;
+
+}
+
+.bplan-bottom-interest{
+    font-family:Gotham,sans-serif;
+    font-size:24px;
+    color:#000000;
+}
+.bplan-bottom-regidtration-ul{
+    margin-top:10vh;
+}
+.bplan-bottom-horizontal-line{
+    margin-top:10vh;
+    opacity:0.54;
+}
+
+@media only screen
+        
+        and (orientation: portrait) {
+       
+         
+         .bplan-bottom-div-contrive p{
+             font-size:5vw;
+         }
+         .bplan-bottom-div-contrive{
+             height:28vh;
+         }
+        }
+        @media only screen
+        
+        and (orientation: landscape){
+            #rules{
+                width: 72%;
+            }
+            #procedure{
+                width: 72%;
+            }
+        }
+        .boldtext-idst-1{
+                color:#007bff;
+        }

@@ -1,0 +1,18 @@
+<svg width="20" height="20" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 3</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-5486 -1985)">
+<g id="Group 3">
+<g id="Ellipse">
+<use xlink:href="#path0_fill" transform="translate(5486 1985)" fill="#FF6363"/>
+</g>
+<g id="!">
+<use xlink:href="#path1_fill" transform="translate(5496 1991)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 20 10C 20 15.5228 15.5228 20 10 20C 4.47715 20 0 15.5228 0 10C 0 4.47715 4.47715 0 10 0C 15.5228 0 20 4.47715 20 10Z"/>
+<path id="path1_fill" d="M 0.228 6.204L 0.564 6.204L 0.744 0.84L 0.744 0L 0.048 0L 0.048 0.84L 0.228 6.204ZM 0 8.4L 0.792 8.4L 0.792 7.38L 0 7.38L 0 8.4Z"/>
+</defs>
+</svg>

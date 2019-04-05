@@ -1,0 +1,20 @@
+#mydiv{
+    width:150px;
+    height:5px;
+    position:absolute;
+    left:0;
+    top:0;
+    background: #F96F6F;
+    z-index: 5;
+}
+@media only screen and (orientation: portrait){
+    #mydiv{
+        width:50px;
+        height:5px;
+        position:absolute;
+        left:0;
+        top:0;
+        background: #F96F6F;
+        z-index: 5;
+    }
+}

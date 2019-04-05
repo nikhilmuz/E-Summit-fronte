@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Gotham-ExtraLight';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-extralight.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-medium.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/Gotham-Light.otf') format('opentype')
+}
+@font-face {
+    font-family: 'Gotham-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../../fonts/gotham-black.ttf') format('truetype')
+}
+
+.ln-buttons-ul{
+    list-style:none;
+    text-align: center;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+.ln-buttons-ul li a{
+   font-size:16px;
+}
+.ln-buttons-ul li{
+   border:1px solid #0020B2;
+   border-radius:56px;
+   position:relative;
+   width:235px;
+   height:40px;
+   margin-bottom:9px;
+ }
+ .ln-buttons-ul li a{
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-right:-50%;
+    transform: translate(-50%,-50%);
+    font-family: Gotham-Medium,sans-serif;
+    color:#0020B2 !important;
+    text-decoration: none;
+  }
+  .ln-buttons-ul li:hover{
+        background-color:#0020B2;
+  }
+
+  .ln-buttons-ul li:hover a{
+    color:#ffffff !important;
+}
+
+@media screen and (orientation : portrait){
+    .ln-buttons-ul{
+        padding-left:0px;
+    }
+}

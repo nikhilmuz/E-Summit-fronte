@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Gotham Black';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./../fonts/gotham-black.ttf') format('truetype')
+}
+
